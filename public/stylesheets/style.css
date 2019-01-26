@@ -1,0 +1,205 @@
+* {
+    font-family: "body";
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Index page */
+
+/* Heading */
+
+.header {
+    font-family: "header";
+    font-size: 4em;
+    text-align: center;
+    padding: 2em 0 1em 0;
+    font-weight: 500;
+    opacity: 200% !important;
+
+}
+
+#headerBg {
+    background-image: url("/images/purplePaw.png") !important;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+#landingpage {
+    width: 100%;
+}
+
+/* Update */
+
+#updateSec {
+    padding: 5em 0;
+}
+
+.updateSubHeader {
+    font-weight: 400;
+    color: #784651;
+}
+
+.updatep {
+    text-align: center;
+}
+
+#updateImg {
+    padding: 1em;
+}
+
+/* fixtures*/
+
+#fixtures {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/* Committee*/
+
+span {
+    font-size: 120%;
+    font-weight: 400;
+    color: #784651;
+}
+
+/* Chair person-- also used for images on left, para on right*/
+
+#chairSec {
+    padding: 5em 0 5em 0;
+}
+
+.chairp {
+    padding: 8.5% 0 0 8.5%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+#img1 {
+    width: 40%;
+}
+
+/* Secretary --- Use for image on right side*/
+
+#secSection {
+    padding: 5em 0 5em 0;
+}
+
+#img2 {
+    width: 40%;
+    float: right;
+}
+
+.secp {
+    width: 50%;
+    padding: 8.5% 0 0 5%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+/* Comment section - Feed Page*/
+
+#commentSec {
+    padding: 2em;
+}
+
+.output {
+    margin: 2em;
+    padding: 0.5em;
+    font-size: 120%;
+    background-color: #F7FBFE;
+    border-radius: 20px;
+}
+#del, #upvote, #downvote {
+    border: none;
+    background-color: transparent;
+}
+.fa-clickable {
+    cursor:pointer;
+    outline:none;
+}
+
+/* Login/ Register Page */
+#reg-form,#log-form {
+    border: solid;
+    border-radius: 5px;
+    border-width: medium;
+    border-color: #F7FBFE;
+    padding: 1em;
+}
+
+/* layout page */
+
+/*Navigation*/
+
+ul.navbar-nav {
+    font-size: 100%;
+}
+
+li {
+    padding: 0 2em 0em 1em;
+}
+
+#navig {
+    background-color: #F7FBFE;
+}
+
+#foot {
+    margin-top: 7em;
+    background-color:#d3d6d7;
+
+}
+
+#foot.li {
+    padding: 0;
+}
+
+#foottop {
+    
+    padding-top: 2em;
+}
+
+/*----Extra Responsitivity ---*/
+
+@media only screen and (max-width: 600px) {
+    #home {
+        text-align: center;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #news {
+        text-align: center;
+    }
+    .chairp,
+    .secp {
+        font-size: 50%;
+        padding-top: 0 0 0 7%;
+        width: 50%;
+    }
+    .header {
+        font-size: 3em;
+    }
+}
+
+/*--------------------FONTS ----------------*/
+
+@font-face {
+    font-family: 'header';
+    src: url('../fonts/TOMATOES.ttf');
+}
+
+@font-face {
+    font-family: 'body';
+    src: url('../fonts/Quicksand.otf');
+}
+
+/* ----------------------------------------*/

@@ -1,0 +1,11 @@
+/*--------------------FONTS ----------------*/
+
+@font-face {
+    font-family: 'header';
+    src: url('../fonts/TOMATOES.ttf');
+}
+
+@font-face {
+    font-family: 'body';
+    src: url('../fonts/Quicksand.otf');
+}
